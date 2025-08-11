@@ -660,10 +660,109 @@ h6 {
     animation: shimmer 2s infinite;
 }
 
+/* Media Coverage Section */
+.media-coverage {
+    padding: 100px 0;
+    background: var(--bg-darker);
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.media-item {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.media-item:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-medium);
+}
+
+.media-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-primary);
+}
+
+.media-source {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.media-source h3 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.media-date {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.media-headline {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.4;
+}
+
+.media-excerpt {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.media-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.media-link:hover {
+    color: var(--primary-light);
+    transform: translateX(5px);
+}
+
+.media-link::after {
+    content: '→';
+    transition: transform 0.3s ease;
+}
+
+.media-link:hover::after {
+    transform: translateX(3px);
+}
+
 /* Gallery Section */
 .gallery {
     padding: 100px 0;
-    background: var(--bg-darker);
+    background: var(--bg-dark);
 }
 
 .gallery-grid {

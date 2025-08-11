@@ -52,6 +52,14 @@
         <priority>0.7</priority>
     </url>
 
+    <!-- Media Coverage Section -->
+    <url>
+        <loc>https://kerellos.com/#media</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
     <!-- Gallery Section -->
     <url>
         <loc>https://kerellos.com/#gallery</loc>
