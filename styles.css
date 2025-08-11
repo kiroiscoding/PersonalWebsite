@@ -315,7 +315,12 @@ h6 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: start;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .about-text p {
@@ -356,15 +361,19 @@ h6 {
 .about-image {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    height: 100%;
 }
 
 .profile-image {
     width: 350px;
     height: auto;
+    max-height: 500px;
     border-radius: 12px;
     object-fit: contain;
     border: 2px solid var(--border-color);
     transition: all 0.3s ease;
+    display: block;
 }
 
 .profile-image:hover {
