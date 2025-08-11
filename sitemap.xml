@@ -85,14 +85,14 @@
 
     <!-- Profile Images -->
     <url>
-        <loc>https://kerellos.com/images/profile/Headshot.png</loc>
+        <loc>https://kerellos.com/images/profile/kerellos-headshot-2025.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
 
     <url>
-        <loc>https://kerellos.com/images/profile/AboutMe.png</loc>
+        <loc>https://kerellos.com/images/profile/kerellos-about-portrait-2025.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
@@ -100,7 +100,7 @@
 
     <!-- Project Images -->
     <url>
-        <loc>https://kerellos.com/images/projects/NasaProject.png</loc>
+        <loc>https://kerellos.com/images/projects/kerellos-nasa-adc-app-2024.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
@@ -108,21 +108,21 @@
 
     <!-- Gallery Images -->
     <url>
-        <loc>https://kerellos.com/images/gallery/NasaPic1.png</loc>
+        <loc>https://kerellos.com/images/gallery/kerellos-nasa-adc-challenge-2024.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
 
     <url>
-        <loc>https://kerellos.com/images/gallery/Classroom.png</loc>
+        <loc>https://kerellos.com/images/gallery/kerellos-nasa-adc-classroom-2024.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
 
     <url>
-        <loc>https://kerellos.com/images/gallery/LectureCode.png</loc>
+        <loc>https://kerellos.com/images/gallery/kerellos-nasa-adc-lecture-code-2024.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
@@ -130,14 +130,14 @@
 
     <!-- Icons -->
     <url>
-        <loc>https://kerellos.com/images/icons/tennis-ball.svg</loc>
+        <loc>https://kerellos.com/images/icons/kerellos-tennis-icon-2025.svg</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://kerellos.com/images/Favicon.png</loc>
+        <loc>https://kerellos.com/images/kerellos-favicon-2025.png</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.2</priority>
